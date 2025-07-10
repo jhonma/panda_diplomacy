@@ -17,17 +17,17 @@ There are three zoos in Japan that have continuously kept pandas, excluding shor
 
 #### Main data sources
 
-- Panda Tokidoki Manuruneco
-https://panda-manuruneko.com/panda-history-japan/
+- Panda Tokidoki Manuruneco  
+https://panda-manuruneko.com/panda-history-japan/  
 A blog about pandas and manul cats by Japanese enthusiasts. Although it is a personal blog, we determined that the content is highly accurate after comparing it with zoo websites and other sources. The second long table, although incomplete, contained a significant amount of text describing loans and returns from China, making it suitable as a basis for data creation.
 
-- Ueno Zoo
-https://www.ueno-panda.jp/history/
+- Ueno Zoo  
+https://www.ueno-panda.jp/history/  
 
-- Adventure World
+- Adventure World  
 https://www.aws-s.com/panda_breeding_and_research/history/individuals.html
 
-- Kobe Oji Zoo
+- Kobe Oji Zoo  
 https://www.kobe-ojizoo.jp/animal/panda/
 
 
@@ -64,10 +64,10 @@ While it is unclear how much this contributed to the acquisition of coding skill
 
 #### Data sources I considered for use: 
 
-- Panda News
-https://pandanews.org/the-pandas.1.html
+- Panda News  
+https://pandanews.org/the-pandas.1.html  
 Compiled by enthusiasts who have worked as zookeepers in China, this source is highly reliable and comprehensive. However, the latest update is from 2012. We tried scraping using the WGET command and Playwright, and were able to download the HTML. However, normalization using GREP and Regex is a significant burden.
 
-- Wikipedia
-https://en.wikipedia.org/wiki/List_of_giant_pandas
+- Wikipedia  
+https://en.wikipedia.org/wiki/List_of_giant_pandas  
 Focuses on well-known individuals, with low data comprehensiveness outside the United States. Source verification is necessary. Table scraping is relatively straightforward.
