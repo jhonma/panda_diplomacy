@@ -40,8 +40,8 @@ https://jsoma.github.io/page-templates/basic/index.html
 
         .footer {
             background: #f4f4f4;
-            text-align: center;
-            font-size: 0.8em;
+            text-align: left;
+            font-size: 1.1em;
             margin-top: 4em;
             padding: 4em 0;
         }
@@ -109,7 +109,24 @@ https://jsoma.github.io/page-templates/basic/index.html
         .full-width figure {
             text-align: center;
         }
-
+	    
+        /* highlight box  */
+	.highlight {
+	  background: #eee;
+	  padding: 1em;
+	  border-radius: 6px;
+	  margin: 1.5em 0;
+	}
+	
+	.highlight h4 {
+	  margin-top: 0;
+	  font-weight: bold;
+	}
+	
+	.highlight ul {
+	  margin: 0;
+	  padding-left: 1.2em;
+	}
         /* margin on mobile */
         @media (max-width: 640px) {
             body {
@@ -133,25 +150,30 @@ https://jsoma.github.io/page-templates/basic/index.html
         </div>
         <div class="byline">
             <p>By JUN HOMMA</a></p>
+        </div>
 
+    <div class="highlight">
 
-    <div class="highlights"></div>
-
-	<h4>STORY HIGHLIGHTS</h4>
+	<h4>STORY HIGHLIGHTS:</h4>
 
 	<ul>
             	<li>Negotiations between China and Japan over pandas have reached a critical stage. If they fail, Japan will face an era without pandas within its borders for the first time in half a century.
-		</li>
+		</li><br>
             	<li>The bilateral cooperation on breeding these animals has proven successful. According to our data analysis, Japan has bred far more pandas than it borrowed from China and has exported them back to the country.
-		</li>
+		</li><br>
 	        <li>Regardless of where they were born, the actual ownership of all pandas remains with the Chinese government, and Japan cannot keep the pandas it has bred within its borders. Desperate efforts are being made in Japan to secure the goodwill of the Chinese government.
-		</li>
+		</li><br>
 	</ul>
     </div>
-	    
+
+
 	    <!--	<p>You can change the fonts by using <a href="https://fonts.google.com/">Google Fonts</a> and some CSS. Right
             now we're using Lora for headlines and Georgia for body copy.</a></p>
 -->
+
+<br>
+<br>
+	
 <p>
 Chinese Vice Premier He Lifeng is expected to visit Japan soon. This was announced on July 7. This comes after a delegation of members of the Japan-China Friendship Parliamentarians' League, including Liberal Democratic Party Secretary-General Yutaka Moriyama, the No. 2 in the ruling party, held a series of talks with Chinese government officials, including Zhao Leji, the No. 3 in the Chinese Communist Party, in Beijing at the end of April and requested a visit by Communist Party officials to Japan.
 </p>
@@ -280,7 +302,7 @@ Tantan, the last surviving female giant panda at Kobe's Oji Zoo lived up to 28-y
 
 		
 <p>
-This article was inspired by a casual remark made during a lecture at Columbia University's Lede Program in June 2025. When instructing students to use the Python computing library “Pandas” for homework, lecturer Sandy Sadhya added that it was not the animal panda. However, I took it seriously and decided to write a story about pandas. It turned out to be an unexpected and enjoyable journey.
+This article was inspired by a casual remark made during a lecture at <b>Columbia University's Lede Program</b> in June 2025. When instructing students to use the Python computing library <b>“Pandas”</b> for homework, lecturer Sandy Sadhya added that it was not the animal panda. However, I took it seriously and decided to write a story about pandas. It turned out to be an unexpected and enjoyable journey.
 </p>
 <p>
 For those interested: The individual giant panda data used in the graphs was sourced from official zoo websites and other reliable blog articles. It was created using a combination of manual data entry in Excel and simple web scraping. The data was imported into DataWrapper, where four types of images were output per series, and then manually overlaid in Adobe Illustrator. You can find the code <a href="https://github.com/jsoma/page-templates/">here</a>
