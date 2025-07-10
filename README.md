@@ -18,7 +18,7 @@ There are three zoos in Japan that have continuously kept pandas, excluding shor
 #### Main data sources
 
 - Panda Tokidoki Manuruneco
-https://panda-manuruneko.com/panda-history-japan/"
+https://panda-manuruneko.com/panda-history-japan/
 A blog about pandas and manul cats by Japanese enthusiasts. Although it is a personal blog, we determined that the content is highly accurate after comparing it with zoo websites and other sources. The second long table, although incomplete, contained a significant amount of text describing loans and returns from China, making it suitable as a basis for data creation.
 
 - Ueno Zoo
