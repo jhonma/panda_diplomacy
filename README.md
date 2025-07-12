@@ -13,7 +13,7 @@ According to my data analysis, Japan has bred far more pandas than it borrowed f
 
 ## Summary of the data collection process, with links
 
-There are three zoos in Japan that have continuously kept pandas, excluding short-term stays. Each zoo has detailed descriptions of the individual pandas on their websites. For the analysis, we used the first blog listed below as the primary source material, scraped one of the tables using the pandas read_html method, exported it as a CSV file locally, and manually supplemented and verified the data in Excel while cross-referencing with the zoo's records as needed.
+There are three zoos in Japan that have continuously kept pandas, excluding short-term stays. Each zoo has detailed descriptions of the individual pandas on their websites. For the analysis, I used the first blog listed below as the primary source material, scraped some of the tables using the pandas read_html method, exported it as a CSV file locally, and manually supplemented and verified the data in Excel while cross-referencing with the zoo's records as needed.
 
 #### Main data sources
 
@@ -66,7 +66,7 @@ While it is unclear how much this contributed to the acquisition of coding skill
 
 - Panda News  
 https://pandanews.org/the-pandas.1.html  
-Compiled by enthusiasts who have worked as zookeepers in China, this source is highly reliable and comprehensive. However, the latest update is from 2012. We tried scraping using the WGET command and Playwright, and were able to download the HTML. However, normalization using GREP and Regex is a significant burden.
+Compiled by a U.K. enthusiast who have worked as a zookeeper in China, this source looks highly reliable and comprehensive. However, the latest update is from 2013. I tried scraping using the WGET command and Playwright, and was able to download the HTML. However, normalization using GREP and Regex remain as a significant burden.
 
 - Wikipedia  
 https://en.wikipedia.org/wiki/List_of_giant_pandas  
