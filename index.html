@@ -93,9 +93,6 @@ https://jsoma.github.io/page-templates/basic/index.html
         }
 
         iframe {
-	    width: 600px;
-	    text-align:center;
-            margin: 0 auto;
             padding-bottom: 1.2em;
         }
 
@@ -105,6 +102,12 @@ https://jsoma.github.io/page-templates/basic/index.html
             font-size: 0.85em;
         }
 
+	.center-graph {
+	    display: flex;
+	    justify-content: center;
+	    margin-bottom: 2em;
+	}	    
+	    
         .full-width figure {
             text-align: center;
         }
@@ -240,8 +243,8 @@ To investigate this issue, we first obtained data on all giant pandas previously
 
 
 <!-- Graph2 HERE -->
-	<div>
-
+	<div class="center-graph">
+		
 	<iframe title="GIFTING MORE THAN GIVEN" aria-label="Bar Chart" id="datawrapper-chart-JzeFP" src="https://datawrapper.dwcdn.net/JzeFP/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="269" data-external="1">
 	</iframe>
 	    
