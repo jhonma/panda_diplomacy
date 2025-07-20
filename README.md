@@ -54,7 +54,7 @@ Contrary to the name, the use of pandas was limited. This was due to the data re
 
 The most time-consuming tasks were data exploration, followed by DataWrapper and Adobe Illustrator. Becoming somewhat familiar with DataWrapper's operations was a notable achievement. While DataWrapper allows for quick visualization, it has limitations in terms of the number of data series and color expression capabilities. As a result, much of the post-production work had to be done in Adobe Illustrator.
 
-To create Graph 1, four SVGs were output for each series (corresponding to each color pattern of the bars) and manually overlaid in Adobe Illustrator. Initially, I was outputting PNG files, but in order to resolve blurring of text within the graphs, I switched to compositing images and text using AI2HTML. In the process, I needed to add support for mobile display (which was cumbersome). For graph2, I am simply loading the DataWrapper output into an iframe.
+To create Graph 1, four SVGs were output for each series (corresponding to each color pattern of the bars) and manually overlaid in Adobe Illustrator. Initially, that resulted in a simple PNG file, but in order to resolve blurring of text within the graph, I switched to compositing an image and text using AI2HTML. In the process, I needed to add support for mobile display (which was cumbersome). For graph2, I am simply loading the DataWrapper output into an iframe.
 
 
 #### Tools I used (other than python)
