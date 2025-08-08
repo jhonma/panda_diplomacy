@@ -1,5 +1,6 @@
 # panda_diplomacy  
 The artilce is <a href="https://jhonma.github.io/panda_diplomacy/"># HERE</a>
+The explanation is <a href="https://jhonma.github.io/panda_diplomacy/"># HERE</a>
 
 
 ## Short description of what I aimed to accomplish
